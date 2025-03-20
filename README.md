@@ -45,8 +45,6 @@ This code base is adapted from the open source [TSLib](https://github.com/thuml/
 
         Use the `predict_ROVI_streaming.ipynb` notebook, which makes predictions while adding one cycle at a time to simulate a data streaming context for prognosis. For example, the model will forecast the next 1000 cycles from the first 50 cycles, then the next 1000 cycles from the first 51 cycles, etc., up through the total number of available input data.  In the notebook, you can modify the list of input files and the name of the parameter column used in your CSV files. The notebook will list the available maximum input and prediction windows which can be selected for forecasting.
 
-___
-
 # Disclaimer
 
 This material was prepared as an account of work sponsored by an agency of the United States Government.  Neither the United States Government nor the United States Department of Energy, nor Battelle, nor any of their employees, nor any jurisdiction or organization that has cooperated in the development of these materials, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness or any information, apparatus, product, software, or process disclosed, or represents that its use would not infringe privately owned rights.
